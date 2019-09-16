@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'lib/my_class'
+require 'lib/public_class'
 
-RSpec.describe MyClass do
+RSpec.describe PublicClass do
   if ENV['SCENARIO'].to_i == 1
     # Scenario 1
     describe 'call_on_eigenclass' do
